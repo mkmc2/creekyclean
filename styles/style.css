@@ -1,0 +1,131 @@
+/*
+Colors:
+    green: 50d890
+    blue: 4f98ca
+    black: 272727
+    light blue: effffb
+    light-gray: f6f6f6
+    gray: eae9e9
+
+Fonts
+    font-family: 'Lato', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+*/
+
+/* Consistent CSS */
+a .btn-primary {
+    background-color: #50d890;
+    border: 1px solid #50d890;
+    color: #effffb;
+    border-radius:5px;
+}
+        a .btn-primary:hover {
+            background-color: #effffb;
+            border: 1px solid #50d890;
+            color: #50d890;
+            border-radius:5px;
+        }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4f98ca;
+}
+/* Navbar */
+#mainNavbar a {
+    color: #50d890;
+}
+#mainNavbar a:hover {
+    color: #4f98ca;
+}
+
+/* Footer Section */
+#footerSection {
+    background-color: #272727;
+    color: #50d890;
+}
+#footerSection a {
+    color: #50d890;
+}
+#footerSection a:hover {
+    color: #4f98ca;
+}
+
+/* Index.html*/
+    /* JumboTron */
+    #jumboContainer {
+        background: url("https://images.unsplash.com/photo-1565803974275-dccd2f933cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80") bottom center/cover no-repeat;
+        min-height: 600px;
+        position: relative; }
+
+    #jumboTextBox {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.75);
+    }
+    /* Sad Cont*/
+    #sadCont {
+        background-color: #f6f6f6;
+    }
+    #realityImg {
+        background-color: #ffffff;
+        box-shadow: 10px 10px 10px #eae9e9;
+    }
+    #sadCont a {
+        color: #50d890
+    }
+
+    /* Togther */
+    #togetherDiv {
+        background-color: #50d890;
+        color: #effffb;
+    }
+    #togetherDiv h2 {
+        color: #effffb;
+    }
+
+    /* Started Link on Homepage*/
+    #startedLink {
+        background-color: #50d890;
+        color: #effffb;
+    }
+    #startedLink h4 {
+        color: #effffb;
+    }
+    #startedLink .btn-primary {
+        background-color: #effffb;
+        border: 1px solid #50d890;
+        color: #272727;
+        border-radius:5px;
+    }
+        #startedLink .btn-primary:hover {
+            transform: scale(1.1);
+        }
+
+/* Templates Page */
+#projectTitleBox {
+    border-bottom: #50d890;
+}
+
+/* Form Section */
+#formSection {
+    background-color: #eae9e9;
+}
+#formInput {
+    background-color: #ffffff;
+    border: 2px solid #50d890;
+}
+#formSection .btn-primary {
+    background-color: #50d890;
+    border: 1px solid #50d890;
+    color: #effffb;
+    border-radius:5px;
+}
+        #formSection .btn-primary:hover {
+            background-color: #effffb;
+            border: 1px solid #50d890;
+            color: #50d890;
+            border-radius:5px;
+        }
+
+#formTitle {
+    color: #50d890;
+}

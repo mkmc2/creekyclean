@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Alata|Poppins&display=swap" rel="stylesheet">
+
+    <!--CSS Link-->    
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/IconPurp1.png" type="image/x-icon">
+
+    <title>Form</title>
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <section id="navBar">
+        <nav id="mainNavbar" class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- <a href="#" class="navbar-brand">split</a> -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images\IconPurp1.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+                    CreekyClean
+                    </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navLinks">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="about.html" class="nav-link">About Us</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="projects.html" class="nav-link active">Projects</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="started.html" class="nav-link">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+    </section>
+
+    <!-- <section class="pt-5" id="startedLink">
+        <div class="conatiner-fluid text-center py-5">
+            <h3 class="py-2">Enter the following info:</h3>
+        </div>
+    </section> -->
+    <!-- Form Section -->
+    <section id="formSection" class="py-5">
+        <div id="projectForm" class="container py-5">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-md-8 pt-2 pb-5">
+                    <form id="formInput" class="p-4 border rounded" action="https://formspree.io/mkmclaughlin2@gmail.com" method="POST">
+                        <h3 id="formTitle" class="text-center py-2">Complete the following information:</h3>
+                        <!-- Name -->
+                        <h4 class="pt-3">Contact Info</h4>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label>Your First Name</label>
+                                <input type="text" class="form-control" name="first-name" placeholder="First">
+                            </div>
+                            <div class="col form-group">
+                                <label>Your Last Name</label>
+                                <input type="text" class="form-control" name="last-name" placeholder="Last">
+                            </div>    
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label for="exampleInputEmail1">Enter your Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="_replyto" aria-describedby="emailHelp" placeholder="example@email.com">
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!-- Social Media -->
+                        <h4 class="pt-3">Social Media Info</h4>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label>Instagram</label>
+                                <input type="text" class="form-control" name="instagram" placeholder="@insta">
+                            </div>
+                            <div class="col form-group">
+                                <label>Twitter</label>
+                                <input type="text" class="form-control" name="twitter" placeholder="@twitter">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label>Facebook</label>
+                                <input type="text" class="form-control" name="facebook" placeholder="facebook">
+                            </div>
+                            <div class="col form-group">
+                                <label>Other</label>
+                                <input type="text" class="form-control" name="other-social-media" placeholder="@example - Tic Toc">
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!-- Project Description -->
+                        <h4 class="pt-3">Project Info</h4>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label>Project Name</label>
+                                <input type="text" class="form-control" name="instagram" placeholder="What do you want to name your project?">
+                            </div>
+                            <div class="col form-group">
+                                <label>Location</label>
+                                <input type="text" class="form-control" name="last-name" placeholder="ex: City, ST">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <label for="textInput">Project description</label>
+                                <textarea class="form-control" id="textInput" rows="3" name="project-description" placeholder="Describe your project in one to two sentences..."></textarea>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <!-- Upload File -->
+                        <h4 class="pt-3">Pictures</h4>
+                            <div class="form-group">
+                                <label for="exampleFormControlFile1">Upload your pictures</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                            <hr>
+                        <!-- Submit Button -->
+                        <div class="row pt-2 px-3">
+                            <button type="submit" value="Send" id="formSubmitButton" class="btn btn-primary btn-block px-2">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-2"></div>    
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="mb-0" id="footerSection">
+        <div class="container pt-4">
+            <ul class="nav text-center justify-content-end flex-column flex-sm-row p-3">
+                <li class="nav-item">
+                    <a class="nav-link d-flex" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex" href="started.html">Get Started</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex active" href="form.html">Submit a Project</a>
+                </li>
+            </ul>
+            <div id="copyright" class="row pl-2 text-center">
+                <p>Copyright 2020 Project Split</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
